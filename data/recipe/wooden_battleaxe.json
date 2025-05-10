@@ -2,16 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "iii",
-    "ipi",
-    " s "
+    "ggg",
+    "lpr",
+    "ddd"
   ],
   "key": {
     "p": "minecraft:ender_pearl",
-    "s": "minecraft:stick"
+    "g": "minecraft:grass_block",
+    "l": "minecraft:blaze_rod",
+    "r": "minecraft:breeze_rod",
+    "d": "minecraft:deepslate"
   },
   "result": {
-    "id": "minecraft:wooden_axe",
+    "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
     "minecraft:tooltip_display": {
@@ -21,7 +24,7 @@
       },
 
       "minecraft:item_name":  {
-        "text": "Wooden Battleaxe"
+        "text": "Surface Pearl"
       },
      "minecraft:attribute_modifiers": [
           {
@@ -46,26 +49,17 @@
             "slot": "mainhand"
           }
         ],
-      "minecraft:item_model": "bbw:wooden_battleaxe",
+      "minecraft:item_model": "expedition:surface_pearl",
       "minecraft:lore": [
         {
           "text": " "
         },
         {
-          "text": "When in Main Hand",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "8 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "0.5 Attack Speed",
-          "color": "dark_green",
+          "text": "Right-click to teleport to the surface",
+          "color": "green",
           "italic": false
         }
+        
       ]
     }
   }
