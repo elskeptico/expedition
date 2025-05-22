@@ -17,43 +17,13 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-    "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      },
 
       "minecraft:item_name":  {
         "text": "Surface Pearl"
       },
-     "minecraft:attribute_modifiers": [
-          {
-            "id": "23674567354235651265190934",
-            "type": "minecraft:attack_speed",
-            "amount": -3.5,
-            "operation": "add_value",
-            "slot": "mainhand"
-          },
-          {
-            "id": "237437847638671267534635645",
-            "type": "minecraft:attack_damage",
-            "amount": 9,
-            "operation": "add_value",
-            "slot": "mainhand"
-          },
-          {
-            "id": "23784623746747346",
-            "type": "minecraft:entity_interaction_range",
-            "amount": 0,
-            "operation": "add_value",
-            "slot": "mainhand"
-          }
-        ],
+
       "minecraft:item_model": "expedition:surface_pearl",
       "minecraft:lore": [
-        {
-          "text": " "
-        },
         {
           "text": "Right-click to teleport to the surface",
           "color": "green",
