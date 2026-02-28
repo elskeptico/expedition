@@ -1,0 +1,1 @@
+execute as @a at @s if entity @e[tags=airship_exit,distance=..1,] run say touching a pig!
