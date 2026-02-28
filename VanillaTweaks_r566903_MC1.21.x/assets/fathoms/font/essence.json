@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "fathoms:gui/sprites/essence.png",
+            "height": 9,
+            "ascent": 8,
+            "chars": [
+                "ABCDEFGHIJ"
+            ]
+        },
+		{
+			"type": "space",
+			"advances": {
+				" ": 2
+			}
+		}
+    ]
+}

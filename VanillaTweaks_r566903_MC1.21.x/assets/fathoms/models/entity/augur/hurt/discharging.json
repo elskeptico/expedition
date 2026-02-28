@@ -1,0 +1,8 @@
+{
+	"parent": "fathoms:entity/augur/default/discharging",
+	"textures": {
+		"0": "fathoms:entity/augur/discharging/hurt/body",
+		"1": "fathoms:entity/augur/discharging/hurt/tentacles",
+		"particle": "fathoms:entity/augur/discharging/hurt/body"
+	}
+}

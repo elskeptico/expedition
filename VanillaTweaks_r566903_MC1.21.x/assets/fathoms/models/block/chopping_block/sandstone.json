@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:block/chopping_block/deepslate",
+	"textures": {
+		"0": "fathoms:block/chopping_block/sandstone",
+		"particle": "minecraft:block/sandstone"
+	}
+}

@@ -1,0 +1,121 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 1,
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "felicity",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/felicity"
+            }
+          },
+          {
+            "when": "mass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/mass"
+            }
+          },
+          {
+            "when": "cunning",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/cunning"
+            }
+          },
+          {
+            "when": "stamina",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/stamina"
+            }
+          },
+          {
+            "when": "solstice",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/solstice"
+            }
+          },
+          {
+            "when": "eclipse",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/matched/eclipse"
+            }
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "unrevealed",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/unrevealed"
+            }
+          },
+          {
+            "when": "felicity",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/felicity"
+            }
+          },
+          {
+            "when": "mass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/mass"
+            }
+          },
+          {
+            "when": "cunning",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/cunning"
+            }
+          },
+          {
+            "when": "stamina",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/stamina"
+            }
+          },
+          {
+            "when": "solstice",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/solstice"
+            }
+          },
+          {
+            "when": "eclipse",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/card/eclipse"
+            }
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fathoms:block/calligraphy_table"
+    }
+  }
+}

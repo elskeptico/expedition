@@ -1,0 +1,6 @@
+{
+	"parent": "fathoms:gui/calligraphy_table/base",
+	"textures": {
+		"layer0": "fathoms:gui/calligraphy_table/card/stamina"
+	}
+}

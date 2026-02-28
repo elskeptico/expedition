@@ -1,0 +1,261 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  { "when": "Codex Umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/codex_umbra" } },
+                  { "when": "Codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/codex_umbra" } },
+                  { "when": "codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/codex_umbra" } },
+                  { "when": "Book of the Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/book_of_the_deep" } },
+                  { "when": "Book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/book_of_the_deep" } },
+                  { "when": "Book Of The Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/book_of_the_deep" } },
+                  { "when": "book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/book_of_the_deep" } }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/gastronomicon/model/base"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 0,
+                "cases": [ 
+                  { "when": "cod", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/cod" } },
+                  { "when": "salmon", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/salmon" } },
+                  { "when": "pufferfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/pufferfish" } },
+                  { "when": "clownfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/clownfish" } },
+                  { "when": "carp", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/carp" } },
+                  { "when": "bass", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/bass" } },
+                  { "when": "catfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/catfish" } },
+                  { "when": "bream", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/bream" } },
+                  { "when": "walleye", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/walleye" } },
+                  { "when": "minnow", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/minnow" } },
+                  { "when": "trout", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/trout" } },
+                  { "when": "gildgill", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/gildgill" } },
+                  { "when": "tuna", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/tuna" } },
+                  { "when": "red_snapper", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/red_snapper" } },
+                  { "when": "halibut", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/halibut" } },
+                  { "when": "tilapia", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/tilapia" } },
+                  { "when": "shrimp", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/shrimp" } },
+                  { "when": "anglerfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/anglerfish" } },
+                  { "when": "eel", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/eel" } },
+                  { "when": "swordfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/swordfish" } },
+                  { "when": "perch", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/perch" } },
+                  { "when": "pike", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/pike" } },
+                  { "when": "char", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/char" } },
+                  { "when": "flounder", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/flounder" } },
+                  { "when": "gar", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/gar" } },
+                  { "when": "arapaima", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/arapaima" } },
+                  { "when": "koi", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/koi" } },
+                  { "when": "angelfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/angelfish" } },
+                  { "when": "amberjack", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/amberjack" } },
+                  { "when": "lobster", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/lobster" } },
+                  { "when": "nautilurk", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/nautilurk" } },
+                  { "when": "carcinomalocaris", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/carcinomalocaris" } },
+                  { "when": "pupfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/pupfish" } },
+                  { "when": "grouper", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/grouper" } },
+                  { "when": "haddock", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/haddock" } },
+                  { "when": "wreckfish", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/wreckfish" } },
+                  { "when": "caesarmaw", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/caesarmaw" } },
+                  { "when": "coelacanth", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/coelacanth" } },
+                  { "when": "corrupt_carp", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/corrupt_carp" } },
+                  { "when": "blind_bass", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/fish/blind_bass" } }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 0,
+                "cases": [ 
+                  { "when": "bad_decision", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/special/bad_decision" } }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  { "when": "freshwater", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/freshwater" } },
+                  { "when": "taigas", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/taigas" } },
+                  { "when": "swamps", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/swamps" } },
+                  { "when": "cherry_grove", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/cherry_grove" } },
+                  { "when": "deserts", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/deserts" } },
+                  { "when": "oasis", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/oasis" } },
+                  { "when": "ancient_reservoir", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/ancient_reservoir" } },
+                  { "when": "pale_garden", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/pale_garden" } },
+                  { "when": "deep_dark", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/deep_dark" } },
+                  { "when": "rivers", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/rivers" } },
+                  { "when": "rivers_night", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/rivers_night" } },
+                  { "when": "oceans", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/oceans" } },
+                  { "when": "warm_oceans", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/warm_oceans" } },
+                  { "when": "frozen_oceans", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/frozen_oceans" } },
+                  { "when": "rocky_waters", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/rocky_waters" } },
+                  { "when": "rocky_waters_night", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/rocky_waters_night" } },
+                  { "when": "rocky_waters_rain", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/rocky_waters_rain" } },
+                  { "when": "mushroom_island", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/mushroom_island" } },
+                  { "when": "gilded_glimmer", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/gilded_glimmer" } },
+                  { "when": "shipwreck", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/shipwreck" } },
+                  { "when": "wishing_well", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/environment/wishing_well" } }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  { "when": "hidden", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/model/special/hidden" } }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 2,
+                "cases": [
+                  {
+                    "when": "hidden",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/ordinary"
+                    }
+                  },
+                  {
+                    "when": "hidden_centered",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/fish_centered"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "hidden",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/aberration"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 4,
+                "cases": [
+                  {
+                    "when": "hidden",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/essence"
+                    }
+                  },
+                  {
+                    "when": "hidden_centered",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/essence_centered"
+                    }
+                  },
+                  {
+                    "when": "hidden_dual",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/essence_dual"
+                    }
+                  },
+                  {
+                    "when": "hidden_dual_centered",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/gastronomicon/model/fish/hidden/essence_dual_centered"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:empty"
+                }
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              { "when": "Codex Umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+              { "when": "Codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+              { "when": "codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+              { "when": "Book of the Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+              { "when": "Book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+              { "when": "Book Of The Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+              { "when": "book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "fathoms:item/gastronomicon/item"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        { "when": "Codex Umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+        { "when": "Codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+        { "when": "codex umbra", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/codex_umbra" } },
+        { "when": "Book of the Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+        { "when": "Book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+        { "when": "Book Of The Deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } },
+        { "when": "book of the deep", "model": { "type": "minecraft:model", "model": "fathoms:item/gastronomicon/book_of_the_deep" } }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "fathoms:item/gastronomicon/item"
+      }
+    }
+  },
+  "hand_animation_on_swap": true
+}

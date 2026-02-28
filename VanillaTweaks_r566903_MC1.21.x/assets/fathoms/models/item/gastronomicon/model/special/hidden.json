@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.6",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/special/bad_decision_hidden"
+	},
+	"elements": [
+		{
+			"name": "front_left",
+			"from": [7.89, -0.01, 3.39],
+			"to": [17.51, 0.01, 16.81],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [6, 8.375, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "front_right",
+			"from": [-1.51, -0.01, 3.39],
+			"to": [8.11, 0.01, 16.81],
+			"rotation": {"angle": -17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [11.875, 8.375, 5.875, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		}
+	}
+}

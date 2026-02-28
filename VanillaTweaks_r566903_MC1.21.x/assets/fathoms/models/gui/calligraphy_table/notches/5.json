@@ -1,0 +1,59 @@
+{
+	"textures": {
+		"0": "fathoms:gui/calligraphy_table/notch",
+		"particle": "fathoms:gui/calligraphy_table/notch"
+	},
+	"elements": [
+		{
+			"from": [16.5, 0, 16.5],
+			"to": [20, 0, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 0, 16.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16.5, 0, 11],
+			"to": [20, 0, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 0, 11]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16.5, 0, 5.5],
+			"to": [20, 0, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 0, 5.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16.5, 0, 0],
+			"to": [20, 0, 3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16.5, 0, -5.5],
+			"to": [20, 0, -2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 0, -5.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [37, -1, 0],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

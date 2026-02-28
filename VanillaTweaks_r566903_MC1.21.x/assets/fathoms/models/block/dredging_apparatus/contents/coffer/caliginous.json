@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:block/dredging_apparatus/contents/coffer/base",
+	"textures": {
+		"0": "fathoms:block/coffer/caliginous",
+		"1": "block/polished_deepslate"
+	}
+}

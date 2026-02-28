@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "fathoms:gui/sprites/moon_cycle.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                "0123",
+                "4567"
+            ]
+        },
+		{
+			"type": "space",
+			"advances": {
+				" ": 2
+			}
+		}
+    ]
+}

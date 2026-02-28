@@ -1,0 +1,657 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/oak"
+            }
+          },
+          {
+            "when": "spruce",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/spruce"
+            }
+          },
+          {
+            "when": "birch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/birch"
+            }
+          },
+          {
+            "when": "jungle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/jungle"
+            }
+          },
+          {
+            "when": "dark_oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/dark_oak"
+            }
+          },
+          {
+            "when": "acacia",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/acacia"
+            }
+          },
+          {
+            "when": "mangrove",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/mangrove"
+            }
+          },
+          {
+            "when": "cherry",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/cherry"
+            }
+          },
+          {
+            "when": "bamboo",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/bamboo"
+            }
+          },
+          {
+            "when": "pale_oak",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/pale_oak"
+            }
+          },
+          {
+            "when": "crimson",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/crimson"
+            }
+          },
+          {
+            "when": "warped",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/warped"
+            }
+          },
+          {
+            "when": "stone",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/stone"
+            }
+          },
+          {
+            "when": "granite",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/granite"
+            }
+          },
+          {
+            "when": "andesite",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/andesite"
+            }
+          },
+          {
+            "when": "diorite",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/diorite"
+            }
+          },
+          {
+            "when": "packed_mud",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/packed_mud"
+            }
+          },
+          {
+            "when": "sandstone",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/sandstone"
+            }
+          },
+          {
+            "when": "deepslate",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/deepslate"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "cod",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/cod"
+            }
+          },
+          {
+            "when": "wispy_cod",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/wispy_cod"
+            }
+          },
+          {
+            "when": "salmon",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/salmon"
+            }
+          },
+          {
+            "when": "torn_salmon",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/torn_salmon"
+            }
+          },
+          {
+            "when": "pufferfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/pufferfish"
+            }
+          },
+          {
+            "when": "shimmerspine_pufferfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/shimmerspine_pufferfish"
+            }
+          },
+          {
+            "when": "clownfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/clownfish"
+            }
+          },
+          {
+            "when": "jesterfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/jesterfish"
+            }
+          },
+          {
+            "when": "carp",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/carp"
+            }
+          },
+          {
+            "when": "man_faced_carp",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/man_faced_carp"
+            }
+          },
+          {
+            "when": "bass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/bass"
+            }
+          },
+          {
+            "when": "bottomless_bass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/bottomless_bass"
+            }
+          },
+          {
+            "when": "catfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/catfish"
+            }
+          },
+          {
+            "when": "obsidian_catfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/obsidian_catfish"
+            }
+          },
+          {
+            "when": "trout",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/trout"
+            }
+          },
+          {
+            "when": "mouthful_trout",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/mouthful_trout"
+            }
+          },
+          {
+            "when": "bream",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/bream"
+            }
+          },
+          {
+            "when": "gleaming_bream",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/gleaming_bream"
+            }
+          },
+          {
+            "when": "walleye",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/walleye"
+            }
+          },
+          {
+            "when": "lobotom_eye",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/lobotom_eye"
+            }
+          },
+          {
+            "when": "perch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/perch"
+            }
+          },
+          {
+            "when": "feathered_perch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/feathered_perch"
+            }
+          },
+          {
+            "when": "pike",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/pike"
+            }
+          },
+          {
+            "when": "gnashing_pike",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/gnashing_pike"
+            }
+          },
+          {
+            "when": "gar",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/gar"
+            }
+          },
+          {
+            "when": "scarred_gar",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/scarred_gar"
+            }
+          },
+          {
+            "when": "arapaima",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/arapaima"
+            }
+          },
+          {
+            "when": "flayed_arapaima",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/flayed_arapaima"
+            }
+          },
+          {
+            "when": "char",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/char"
+            }
+          },
+          {
+            "when": "charred_char",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/charred_char"
+            }
+          },
+          {
+            "when": "flounder",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/flounder"
+            }
+          },
+          {
+            "when": "floundry",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/floundry"
+            }
+          },
+          {
+            "when": "lobster",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/lobster"
+            }
+          },
+          {
+            "when": "blue_lobster",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/blue_lobster"
+            }
+          },
+          {
+            "when": "unsightly_mass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/unsightly_mass"
+            }
+          },
+          {
+            "when": "halibut",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/halibut"
+            }
+          },
+          {
+            "when": "crystal_halibut",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/crystal_halibut"
+            }
+          },
+          {
+            "when": "tilapia",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/tilapia"
+            }
+          },
+          {
+            "when": "radiant_tilapia",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/radiant_tilapia"
+            }
+          },
+          {
+            "when": "tuna",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/tuna"
+            }
+          },
+          {
+            "when": "sporing_tuna",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/sporing_tuna"
+            }
+          },
+          {
+            "when": "red_snapper",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/red_snapper"
+            }
+          },
+          {
+            "when": "eyeballer_jones",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/eyeballer_jones"
+            }
+          },
+          {
+            "when": "anglerfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/anglerfish"
+            }
+          },
+          {
+            "when": "tanglerfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/tanglerfish"
+            }
+          },
+          {
+            "when": "eel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/eel"
+            }
+          },
+          {
+            "when": "volt_eel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/volt_eel"
+            }
+          },
+          {
+            "when": "koi",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/koi"
+            }
+          },
+          {
+            "when": "decomposing_koi",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/decomposing_koi"
+            }
+          },
+          {
+            "when": "angelfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/angelfish"
+            }
+          },
+          {
+            "when": "ichthys",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/ichthys"
+            }
+          },
+          {
+            "when": "amberjack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/amberjack"
+            }
+          },
+          {
+            "when": "entombed_amberjack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/entombed_amberjack"
+            }
+          },
+          {
+            "when": "carcinomalocaris",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/carcinomalocaris"
+            }
+          },
+          {
+            "when": "nautilurk",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/nautilurk"
+            }
+          },
+          {
+            "when": "pupfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/pupfish"
+            }
+          },
+          {
+            "when": "gildgill",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/gildgill"
+            }
+          },
+          {
+            "when": "caesarmaw",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/caesarmaw"
+            }
+          },
+          {
+            "when": "unbound_caesarmaw",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/unbound_caesarmaw"
+            }
+          },
+          {
+            "when": "grouper",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/grouper"
+            }
+          },
+          {
+            "when": "consumed_grouper",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/consumed_grouper"
+            }
+          },
+          {
+            "when": "haddock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/haddock"
+            }
+          },
+          {
+            "when": "anguished_haddock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/anguished_haddock"
+            }
+          },
+          {
+            "when": "wreckfish",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/wreckfish"
+            }
+          },
+          {
+            "when": "moby_wreck",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/moby_wreck"
+            }
+          },
+          {
+            "when": "coelacanth",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/coelacanth"
+            }
+          },
+          {
+            "when": "bedazzling_coelacanth",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/bedazzling_coelacanth"
+            }
+          },
+          {
+            "when": "corrupt_carp",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/corrupt_carp"
+            }
+          },
+          {
+            "when": "crazed_carp",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/crazed_carp"
+            }
+          },
+          {
+            "when": "blind_bass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/blind_bass"
+            }
+          },
+          {
+            "when": "benthic_bass",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fathoms:block/chopping_block/fish/aberration/benthic_bass"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

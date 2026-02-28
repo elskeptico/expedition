@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/iron_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435032
+      },
+      "model": "minecraft:item/iron_battleaxe"
+    }
+  ]
+}

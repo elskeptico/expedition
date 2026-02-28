@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:block/chopping_block/oak",
+	"textures": {
+		"0": "fathoms:block/chopping_block/pale_oak",
+		"particle": "minecraft:block/pale_oak_planks"
+	}
+}

@@ -1,0 +1,62 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435031
+      },
+      "model": "minecraft:item/iron_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435032
+      },
+      "model": "minecraft:item/iron_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435033
+      },
+      "model": "minecraft:item/iron_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435051
+      },
+      "model": "minecraft:item/diamond_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435052
+      },
+      "model": "minecraft:item/diamond_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435053
+      },
+      "model": "minecraft:item/diamond_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435061
+      },
+      "model": "minecraft:item/netherite_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435062
+      },
+      "model": "minecraft:item/netherite_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435063
+      },
+      "model": "minecraft:item/netherite_spear"
+    }
+  ]
+}

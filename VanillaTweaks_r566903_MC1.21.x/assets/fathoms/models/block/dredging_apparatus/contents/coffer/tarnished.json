@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:block/dredging_apparatus/contents/coffer/base",
+	"textures": {
+		"0": "fathoms:block/coffer/tarnished",
+		"1": "block/spruce_planks"
+	}
+}

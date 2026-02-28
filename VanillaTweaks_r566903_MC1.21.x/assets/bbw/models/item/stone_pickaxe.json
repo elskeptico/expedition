@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/stone_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435074
+      },
+      "model": "minecraft:item/copper_pickaxe"
+    }
+  ]
+}

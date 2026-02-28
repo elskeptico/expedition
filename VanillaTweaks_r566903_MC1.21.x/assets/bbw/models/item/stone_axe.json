@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/stone_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435022
+      },
+      "model": "minecraft:item/stone_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435072
+      },
+      "model": "minecraft:item/copper_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435075
+      },
+      "model": "minecraft:item/copper_axe"
+    }
+  ]
+}

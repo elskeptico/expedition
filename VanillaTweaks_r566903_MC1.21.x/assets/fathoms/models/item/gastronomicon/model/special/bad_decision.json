@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:item/gastronomicon/model/templates/special",
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/special/bad_decision",
+		"particle": "minecraft:item/poisonous_potato"
+	}
+}

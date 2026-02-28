@@ -1,0 +1,6 @@
+{
+	"parent": "fathoms:item/sunken_scrawl/base/front",
+	"textures": {
+		"0": "fathoms:item/sunken_scrawl/ocean/charm_of_butchery"
+	}
+}

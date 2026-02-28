@@ -1,0 +1,6 @@
+{
+	"parent": "fathoms:block/dredging_apparatus/contents/cube",
+	"textures": {
+		"1": "block/coarse_dirt"
+	}
+}

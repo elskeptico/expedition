@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/stone_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435076
+      },
+      "model": "minecraft:item/copper_shovel"
+    }
+  ]
+}

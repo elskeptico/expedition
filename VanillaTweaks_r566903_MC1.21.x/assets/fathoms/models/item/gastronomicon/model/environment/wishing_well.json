@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:item/gastronomicon/model/templates/environment",
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/environments/wishing_well",
+		"particle": "minecraft:item/poisonous_potato"
+	}
+}

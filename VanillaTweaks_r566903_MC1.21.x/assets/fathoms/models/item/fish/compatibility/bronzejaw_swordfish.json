@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fathoms:item/fish/compatibility/aberration/bronzejaw_swordfish"
+	}
+}

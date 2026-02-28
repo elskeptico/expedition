@@ -4,6 +4,16 @@
       "type": "directory",
       "source": "cnk_entity",
       "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "entity/thallium",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "gui/thallium",
+      "prefix": "gui/"
     }
   ]
 }

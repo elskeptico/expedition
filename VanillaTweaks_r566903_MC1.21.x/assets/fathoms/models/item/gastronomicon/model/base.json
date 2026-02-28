@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.6",
+	"texture_size": [256, 128],
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/base"
+	},
+	"elements": [
+		{
+			"name": "back_left",
+			"from": [7.78988, 0, 2.53675],
+			"to": [18.50625, 0, 18.086],
+			"rotation": {"angle": 5, "axis": "z", "origin": [8, 0, 10.31137]},
+			"faces": {
+				"up": {"uv": [3.1875, 9.25, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "back_right",
+			"from": [-2.71637, 0, 2.53675],
+			"to": [8, 0, 18.086],
+			"rotation": {"angle": -5, "axis": "z", "origin": [8, 0, 10.31137]},
+			"faces": {
+				"up": {"uv": [6.3125, 9.25, 3.125, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "middle_left",
+			"from": [8.35, 0, 3.8],
+			"to": [18.55, 0, 16.2],
+			"rotation": {"angle": 10, "axis": "z", "origin": [8, 0, 11.2]},
+			"faces": {
+				"up": {"uv": [9.5, 7.75, 6.3125, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "middle_right",
+			"from": [-2.55, 0, 3.8],
+			"to": [7.65, 0, 16.2],
+			"rotation": {"angle": -10, "axis": "z", "origin": [8, 0, 11.2]},
+			"faces": {
+				"up": {"uv": [12.625, 7.75, 9.4375, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "front_left",
+			"from": [7.9, 0, 3.4],
+			"to": [17.5, 0, 16.8],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [4.3125, 15.625, 0.125, 9.625], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "front_right",
+			"from": [-1.5, 0, 3.4],
+			"to": [8.1, 0, 16.8],
+			"rotation": {"angle": -17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [12.8125, 15.625, 8.625, 9.625], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		}
+	},
+	"groups": [
+		{
+			"name": "base",
+			"origin": [8, 0, 11],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

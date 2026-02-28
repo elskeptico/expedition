@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:item/gastronomicon/model/templates/environment",
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/environments/rocky_waters_rain",
+		"particle": "minecraft:item/poisonous_potato"
+	}
+}

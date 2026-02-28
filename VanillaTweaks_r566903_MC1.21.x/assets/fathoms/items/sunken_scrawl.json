@@ -1,0 +1,229 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "rite_of_fortune",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/ocean/rite_of_fortune/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/ocean/rite_of_fortune/front"
+                }
+              }
+            },
+            {
+              "when": "rain_dance",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/ocean/rain_dance/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/ocean/rain_dance/front"
+                }
+              }
+            },
+            {
+              "when": "charm_of_butchery",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/ocean/charm_of_butchery/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/ocean/charm_of_butchery/front"
+                }
+              }
+            },
+            {
+              "when": "morph_steed",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/ocean/morph_steed/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/ocean/morph_steed/front"
+                }
+              }
+            },
+            {
+              "when": "conjure_beasts",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/rocky_waters/conjure_beasts/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/rocky_waters/conjure_beasts/front"
+                }
+              }
+            },
+            {
+              "when": "divine_gift",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "back",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fathoms:item/sunken_scrawl/rocky_waters/divine_gift/back"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:item/sunken_scrawl/rocky_waters/divine_gift/front"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:context_entity_type",
+        "cases": [
+          {
+            "when": "minecraft:item",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "fathoms:item/sunken_scrawl"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "fathoms:gui/calligraphy_table/blocked_slot"
+            },
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "scale": 1,
+              "entries": [
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fathoms:gui/calligraphy_table/notches/1"
+                  }
+                },
+                {
+                  "threshold": 2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fathoms:gui/calligraphy_table/notches/2"
+                  }
+                },
+                {
+                  "threshold": 3,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fathoms:gui/calligraphy_table/notches/3"
+                  }
+                },
+                {
+                  "threshold": 4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fathoms:gui/calligraphy_table/notches/4"
+                  }
+                },
+                {
+                  "threshold": 5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fathoms:gui/calligraphy_table/notches/5"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            }
+          ]
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fathoms:item/sunken_scrawl"
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

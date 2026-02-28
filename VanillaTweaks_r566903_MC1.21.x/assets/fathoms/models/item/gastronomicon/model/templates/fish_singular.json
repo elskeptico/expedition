@@ -1,0 +1,65 @@
+{
+	"format_version": "1.21.6",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "fathoms:item/gastronomicon/model/base"
+	},
+	"elements": [
+		{
+			"name": "essences",
+			"from": [9.299, -0.001, 9.599],
+			"to": [15.501, 0.001, 11.401],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [15.5, 13, 0, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "border",
+			"from": [10.495, -0.005, 11.595],
+			"to": [14.495, 0.005, 15.605],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [15.0625, 9.5, 13.8125, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fish",
+			"from": [10.8945, -0.0055, 11.9945],
+			"to": [14.1055, 0.0055, 15.2055],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "front_left",
+			"from": [7.9, 0, 3.4],
+			"to": [17.5, 0, 16.8],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [8.5625, 15.625, 4.375, 9.625], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		}
+	},
+	"groups": [
+		{
+			"name": "fish_page",
+			"origin": [8, 0, 10.8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

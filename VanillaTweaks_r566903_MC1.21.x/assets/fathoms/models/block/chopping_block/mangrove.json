@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:block/chopping_block/oak",
+	"textures": {
+		"0": "fathoms:block/chopping_block/mangrove",
+		"particle": "minecraft:block/mangrove_planks"
+	}
+}

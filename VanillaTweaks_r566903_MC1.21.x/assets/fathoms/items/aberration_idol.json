@@ -1,0 +1,119 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "cases": [
+        {
+          "when": "eroded",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/eroded"
+          }
+        },
+        {
+          "when": "crumbly",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/crumbly"
+          }
+        },
+        {
+          "when": "rugged",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/rugged"
+          }
+        },
+        {
+          "when": "heavy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/heavy"
+          }
+        },
+        {
+          "when": "odd",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/odd"
+          }
+        },
+        {
+          "when": "marred",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/marred"
+          }
+        },
+        {
+          "when": "damp",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/active/damp"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "cases": [
+        {
+          "when": "eroded",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/eroded"
+          }
+        },
+        {
+          "when": "crumbly",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/crumbly"
+          }
+        },
+        {
+          "when": "rugged",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/rugged"
+          }
+        },
+        {
+          "when": "heavy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/heavy"
+          }
+        },
+        {
+          "when": "odd",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/odd"
+          }
+        },
+        {
+          "when": "marred",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/marred"
+          }
+        },
+        {
+          "when": "damp",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fathoms:block/aberration_idol/default/damp"
+          }
+        }
+      ]
+    }
+  }
+}

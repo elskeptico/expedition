@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/golden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435041
+      },
+      "model": "minecraft:item/golden_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435042
+      },
+      "model": "minecraft:item/golden_battleaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435043
+      },
+      "model": "minecraft:item/golden_spear"
+    }
+  ]
+}

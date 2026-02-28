@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fathoms:item/ornate_tool/netherite/sacrificial_knife"
+	}
+}

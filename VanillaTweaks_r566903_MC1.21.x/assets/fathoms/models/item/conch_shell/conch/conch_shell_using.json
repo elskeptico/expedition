@@ -1,0 +1,6 @@
+{
+	"parent": "fathoms:item/conch_shell/using",
+	"textures": {
+		"layer0": "fathoms:item/conch_shell/conch_shell"
+	}
+}

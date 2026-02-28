@@ -1,0 +1,92 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:context_entity_type",
+      "cases": [
+        {
+          "when": "minecraft:item",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "fathoms:item/fish/caesarmaw"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "fathoms:gui/calligraphy_table/blocked_slot"
+          },
+          {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "scale": 1,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:gui/calligraphy_table/notches/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:gui/calligraphy_table/notches/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:gui/calligraphy_table/notches/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:gui/calligraphy_table/notches/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fathoms:gui/calligraphy_table/notches/5"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:empty"
+            }
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 1,
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fathoms:item/fish/unbound_caesarmaw"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fathoms:item/fish/caesarmaw"
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

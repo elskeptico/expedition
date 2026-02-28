@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bbw:item/stone_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 435021
+      },
+      "model": "minecraft:item/stone_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435023
+      },
+      "model": "minecraft:item/stone_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435071
+      },
+      "model": "minecraft:item/copper_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435073
+      },
+      "model": "minecraft:item/copper_spear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435078
+      },
+      "model": "minecraft:item/copper_sword"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.6",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "fathoms:item/gastronomicon/model/fish/hidden/essences"
+	},
+	"elements": [
+		{
+			"name": "essences",
+			"from": [9.295, -0.005, 9.595],
+			"to": [12.305, 0.005, 11.415],
+			"rotation": {"angle": 17.5, "axis": "z", "origin": [8, 0, 10.8]},
+			"faces": {
+				"up": {"uv": [15.5, 9.5, 8, 5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -180, 0],
+			"translation": [-9, 6.5, 5],
+			"scale": [0.85, 0.85, 0.85]
+		}
+	},
+	"groups": [
+		{
+			"name": "fish_page",
+			"origin": [8, 0, 10.8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

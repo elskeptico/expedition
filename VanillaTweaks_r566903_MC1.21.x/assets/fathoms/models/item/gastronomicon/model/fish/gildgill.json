@@ -1,0 +1,7 @@
+{
+	"parent": "fathoms:item/gastronomicon/model/templates/fish_singular",
+	"textures": {
+		"0": "fathoms:item/gastronomicon/model/fish/gildgill",
+		"particle": "minecraft:item/poisonous_potato"
+	}
+}

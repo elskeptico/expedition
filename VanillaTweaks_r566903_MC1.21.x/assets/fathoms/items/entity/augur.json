@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "discharging",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "fathoms:entity/augur/hurt/discharging"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "fathoms:entity/augur/default/discharging"
+          }
+        }
+      },
+      {
+        "when": "beached",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "fathoms:entity/augur/hurt/beached"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "fathoms:entity/augur/default/beached"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fathoms:entity/augur/hurt/default"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fathoms:entity/augur/default/default"
+      }
+    }
+  }
+}

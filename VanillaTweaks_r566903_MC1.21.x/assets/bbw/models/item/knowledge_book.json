@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bbw:item/knowledge_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 436001
+      },
+      "model": "minecraft:item/shuriken"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 436002
+      },
+      "model": "minecraft:item/shuriken_anim"
+    }
+  ]
+}

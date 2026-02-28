@@ -1,0 +1,30 @@
+{
+  "block.chest.locked": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "weather.rain": {
+    "sounds": [
+      "fathoms:ambient/weather/rain/loop/loop1",
+      "fathoms:ambient/weather/rain/loop/loop2",
+      "fathoms:ambient/weather/rain/loop/loop3",
+      "fathoms:ambient/weather/rain/loop/loop4",
+      "fathoms:ambient/weather/rain/loop/loop5",
+      "fathoms:ambient/weather/rain/loop/loop6",
+      "fathoms:ambient/weather/rain/loop/loop7"
+    ],
+    "subtitle": "subtitles.weather.rain",
+    "replace": true
+  },
+  "weather.rain.above": {
+    "sounds": [
+      "fathoms:ambient/weather/rain/loop/overhead1",
+      "fathoms:ambient/weather/rain/loop/overhead2",
+      "fathoms:ambient/weather/rain/loop/overhead3",
+      "fathoms:ambient/weather/rain/loop/overhead4"
+    ],
+    "subtitle": "subtitles.weather.rain",
+    "replace": true
+  }
+}

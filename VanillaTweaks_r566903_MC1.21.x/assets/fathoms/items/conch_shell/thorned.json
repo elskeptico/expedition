@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fathoms:item/conch_shell/thorned/thorned_shell"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fathoms:item/conch_shell/thorned/thorned_shell_using"
+    },
+    "property": "minecraft:using_item"
+  }
+}

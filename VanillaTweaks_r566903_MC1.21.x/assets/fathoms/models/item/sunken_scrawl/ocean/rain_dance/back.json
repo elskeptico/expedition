@@ -1,0 +1,6 @@
+{
+	"parent": "fathoms:item/sunken_scrawl/base/back",
+	"textures": {
+		"0": "fathoms:item/sunken_scrawl/ocean/rain_dance"
+	}
+}

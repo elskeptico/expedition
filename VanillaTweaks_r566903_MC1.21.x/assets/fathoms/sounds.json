@@ -1,0 +1,893 @@
+{
+  "item.fish.flop": {
+    "subtitle": "subtitles.fathoms.item.fish.flop",
+    "sounds": [
+      "entity/fish/flop1",
+      "entity/fish/flop2",
+      "entity/fish/flop3",
+      "entity/fish/flop4"
+    ]
+  },
+  "item.fish.cut": {
+    "subtitle": "subtitles.fathoms.item.fish.cut",
+    "sounds": [
+      "fathoms:item/fish/chop/cut1",
+      "fathoms:item/fish/chop/cut2",
+      "fathoms:item/fish/chop/cut3"
+    ]
+  },
+  "item.fish.chop": {
+    "subtitle": "subtitles.fathoms.item.fish.cut",
+    "sounds": [
+      "fathoms:item/fish/chop/chop1",
+      "fathoms:item/fish/chop/chop2",
+      "fathoms:item/fish/chop/chop3"
+    ]
+  },
+  "item.fish.chop.gildgill": {
+    "sounds": [
+      "minecraft:block/amethyst/shimmer"
+    ]
+  },
+  "item.fish.chop.radiant_tilapia": {
+    "sounds": [
+      "fathoms:item/fish/chop/aberration/radiant_tilapia"
+    ]
+  },
+  "item.fish.deflect": {
+    "subtitle": "subtitles.fathoms.item.fish.deflect",
+    "sounds": [
+      "fathoms:item/fish/tough_shell/deflect1",
+      "fathoms:item/fish/tough_shell/deflect2",
+      "fathoms:item/fish/tough_shell/deflect3"
+    ]
+  },
+  "item.fish.sacrifice": {
+    "subtitle": "subtitles.fathoms.item.fish.sacrifice",
+    "sounds": [
+      "fathoms:item/fish/sacrifice/sacrifice1",
+      "fathoms:item/fish/sacrifice/sacrifice2",
+      "fathoms:item/fish/sacrifice/sacrifice3"
+    ]
+  },
+  "item.fish.aberration.ambient": {
+    "sounds": [
+      "mob/warden/heartbeat_1",
+      "mob/warden/heartbeat_2",
+      "mob/warden/heartbeat_3",
+      "mob/warden/heartbeat_4"
+    ],
+    "subtitle": "subtitles.fathoms.item.fish.aberration.ambient"
+  },
+  "item.fish.gilded.ambient": {
+    "sounds": [
+      {
+        "name": "fathoms:item/fish/gilded",
+        "pitch": 1.4
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "pitch": 1.45
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "pitch": 1.5
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "pitch": 1.55
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "pitch": 1.6
+      }
+    ],
+    "subtitle": "subtitles.fathoms.item.fish.gilded.ambient"
+  },
+  "item.fish.caesarmaw.ambient": {
+    "sounds": [
+      {
+        "name": "fathoms:item/fish/whisper1",
+        "volume": 0.5
+      },
+      {
+        "name": "fathoms:item/fish/whisper2",
+        "volume": 0.5
+      },
+      {
+        "name": "fathoms:item/fish/whisper3",
+        "volume": 0.5
+      },
+      {
+        "name": "fathoms:item/fish/whisper4",
+        "volume": 0.5
+      },
+      {
+        "name": "fathoms:item/fish/whisper5",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fathoms.item.fish.caesarmaw.ambient"
+  },
+  "item.fish.waxed": {
+    "sounds": [
+      "minecraft:block/honeyblock/slide1",
+      "minecraft:block/honeyblock/slide2",
+      "minecraft:block/honeyblock/slide3",
+      "minecraft:block/honeyblock/slide4"
+    ],
+    "subtitle": "subtitles.fathoms.item.fish.waxed"
+  },
+  "item.fishing_rod.cast.bait": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.cast.bait",
+    "sounds": [
+      {
+        "name": "minecraft:mob/fox/eat1",
+        "volume": 0.5,
+        "pitch": 2
+      },
+      {
+        "name": "minecraft:mob/fox/eat2",
+        "volume": 0.5,
+        "pitch": 2
+      },
+      {
+        "name": "minecraft:mob/fox/eat3",
+        "volume": 0.5,
+        "pitch": 2
+      }
+    ]
+  },
+  "item.fishing_rod.cast.magnet": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.cast.magnet",
+    "sounds": [
+	  "minecraft:block/lodestone/lock1",
+	  "minecraft:block/lodestone/lock2"
+    ]
+  },
+  "item.fishing_rod.reel.aberration": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.reel.aberration",
+    "sounds": [
+      {
+        "name": "fathoms:item/fishing_rod/reel/aberration/aaaouh",
+        "volume": 0.75
+      }
+    ]
+  },
+  "item.fishing_rod.reel.fake_aberration": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.reel.fake_aberration",
+    "sounds": [
+      "fathoms:item/fishing_rod/reel/fake_aberration"
+    ]
+  },
+  "item.fishing_rod.reel.gilded": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.reel.gilded",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "pitch": 1.25
+      }
+    ]
+  },
+  "item.fishing_rod.reel.gildgill": {
+    "subtitle": "subtitles.fathoms.item.fishing_rod.reel.gildgill",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "item.message_in_a_bottle": {
+    "subtitle": "subtitles.fathoms.item.message_in_a_bottle",
+    "sounds": [
+      "fathoms:item/message_in_a_bottle/open1",
+      "fathoms:item/message_in_a_bottle/open2"
+    ]
+  },
+  "item.sunken_scrawl": {
+    "subtitle": "subtitles.fathoms.item.sunken_scrawl",
+    "sounds": [
+      {
+        "name": "minecraft:item/book/open_flip1",
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:item/book/open_flip2",
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:item/book/open_flip3",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "item.conch_shell.love": {
+    "subtitle": "subtitles.fathoms.item.conch_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/conch/love"
+    ]
+  },
+  "item.conch_shell.return": {
+    "subtitle": "subtitles.fathoms.item.conch_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/conch/return"
+    ]
+  },
+  "item.conch_shell.predict": {
+    "subtitle": "subtitles.fathoms.item.conch_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/conch/predict"
+    ]
+  },
+  "item.thorned_shell.freight": {
+    "subtitle": "subtitles.fathoms.item.thorned_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/thorned/freight"
+    ]
+  },
+  "item.thorned_shell.cower": {
+    "subtitle": "subtitles.fathoms.item.thorned_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/thorned/cower"
+    ]
+  },
+  "item.thorned_shell.rig": {
+    "subtitle": "subtitles.fathoms.item.thorned_shell",
+    "sounds": [
+      "fathoms:item/conch_shell/thorned/rig"
+    ]
+  },
+  "item.futile_pendant.fail": {
+    "subtitle": "subtitles.fathoms.item.futile_pendant.fail",
+    "sounds": [
+      "fathoms:item/futile_pendant/fail"
+    ]
+  },
+  "item.futile_pendant.thaw": {
+    "subtitle": "subtitles.fathoms.item.futile_pendant.thaw",
+    "sounds": [
+      "fathoms:item/futile_pendant/thaw"
+    ]
+  },
+  "enchantment.jinx.bulldozing": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.bulldozing",
+    "sounds": [
+      "fathoms:enchantment/jinx/bulldozing1",
+      "fathoms:enchantment/jinx/bulldozing2",
+      "fathoms:enchantment/jinx/bulldozing3"
+    ]
+  },
+  "enchantment.jinx.whiplash.spark": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.whiplash.spark",
+    "sounds": [
+      {
+        "name": "fathoms:enchantment/jinx/whiplash/spark1",
+        "volume": 0.25
+      },
+      {
+        "name": "fathoms:enchantment/jinx/whiplash/spark2",
+        "volume": 0.25
+      },
+      {
+        "name": "fathoms:enchantment/jinx/whiplash/spark3",
+        "volume": 0.25
+      },
+      {
+        "name": "fathoms:enchantment/jinx/whiplash/spark4",
+        "volume": 0.25
+      }
+    ]
+  },
+  "enchantment.jinx.chilling": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.chilling",
+    "sounds": [
+      "fathoms:enchantment/jinx/chilling1",
+      "fathoms:enchantment/jinx/chilling2"
+    ]
+  },
+  "enchantment.jinx.whiplash.damage_low": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.whiplash.damage",
+    "sounds": [
+      "fathoms:enchantment/jinx/whiplash/damage_low"
+    ]
+  },
+  "enchantment.jinx.whiplash.damage_medium": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.whiplash.damage",
+    "sounds": [
+      "fathoms:enchantment/jinx/whiplash/damage_medium"
+    ]
+  },
+  "enchantment.jinx.whiplash.damage_high": {
+    "subtitle": "subtitles.fathoms.enchantment.jinx.whiplash.damage",
+    "sounds": [
+      "fathoms:enchantment/jinx/whiplash/damage_high"
+    ]
+  },
+  "block.aberration_idol.commit": {
+    "sounds": [
+      "fathoms:block/aberration_idol/commit"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.commit"
+  },
+  "block.aberration_idol.charge": {
+    "sounds": [
+      "fathoms:block/aberration_idol/charge"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.charge"
+  },
+  "block.aberration_idol.eject_heart": {
+    "sounds": [
+      "fathoms:block/aberration_idol/eject_heart"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.eject_heart"
+  },
+  "block.aberration_idol.end.generic": {
+    "sounds": [
+      "fathoms:block/aberration_idol/end/generic"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.end"
+  },
+  "block.aberration_idol.end.shimmer": {
+    "sounds": [
+      "fathoms:block/aberration_idol/end/shimmer"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.end"
+  },
+  "block.aberration_idol.end.bubble": {
+    "sounds": [
+      "fathoms:block/aberration_idol/end/bubble"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.end"
+  },
+  "block.aberration_idol.end.divine_gift": {
+    "sounds": [
+      "fathoms:block/aberration_idol/end/divine_gift"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.end"
+  },
+  "block.aberration_idol.end.conjure_beasts": {
+    "sounds": [
+      "fathoms:block/aberration_idol/end/conjure_beasts"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.end"
+  },
+  "block.aberration_idol.ambient": {
+    "sounds": [
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active1",
+        "pitch": 0.8
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active1",
+        "pitch": 0.9
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active1",
+        "pitch": 1
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active2",
+        "pitch": 0.8
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active2",
+        "pitch": 0.9
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active2",
+        "pitch": 1
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active3",
+        "pitch": 0.8
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active3",
+        "pitch": 0.9
+      },
+      {
+        "name": "fathoms:block/aberration_idol/ritual/active3",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.ambient"
+  },
+  "block.aberration_idol.deactivate": {
+    "sounds": [
+      {
+        "name": "fathoms:block/aberration_idol/end/generic",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.deactivate"
+  },
+  "block.aberration_idol.conjure_beasts.summon": {
+    "sounds": [
+      "fathoms:block/aberration_idol/ritual/conjure_beasts/summon1",
+      "fathoms:block/aberration_idol/ritual/conjure_beasts/summon2",
+      "fathoms:block/aberration_idol/ritual/conjure_beasts/summon3"
+    ],
+    "subtitle": "subtitles.fathoms.block.aberration_idol.conjure_beasts.summon"
+  },
+  "block.nautilus_siphon.catch": {
+    "sounds": [
+      "fathoms:block/nautilus_siphon/catch"
+    ],
+    "subtitle": "subtitles.fathoms.block.nautilus_siphon.catch"
+  },
+  "block.nautilus_siphon.empty": {
+    "sounds": [
+      "fathoms:block/nautilus_siphon/empty1",
+      "fathoms:block/nautilus_siphon/empty2",
+      "fathoms:block/nautilus_siphon/empty3"
+    ],
+    "subtitle": "subtitles.fathoms.block.nautilus_siphon.empty"
+  },
+  "block.nautilus_siphon.empty_fail": {
+    "sounds": [
+      {
+        "name": "fathoms:block/nautilus_siphon/empty1",
+        "pitch": 1.5
+      },
+      {
+        "name": "fathoms:block/nautilus_siphon/empty1",
+        "pitch": 1.5
+      },
+      {
+        "name": "fathoms:block/nautilus_siphon/empty1",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.nautilus_siphon.empty_fail"
+  },
+  "block.dredging_apparatus.toggle": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/toggle"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.toggle"
+  },
+  "block.dredging_apparatus.lower": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/chain1",
+      "fathoms:block/dredging_apparatus/chain2",
+      "fathoms:block/dredging_apparatus/chain3",
+      "fathoms:block/dredging_apparatus/chain4",
+      "fathoms:block/dredging_apparatus/chain5"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.lower"
+  },
+  "block.dredging_apparatus.reel": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/chain1",
+      "fathoms:block/dredging_apparatus/chain2",
+      "fathoms:block/dredging_apparatus/chain3",
+      "fathoms:block/dredging_apparatus/chain4",
+      "fathoms:block/dredging_apparatus/chain5"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.reel"
+  },
+  "block.dredging_apparatus.enter_water": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/enter_water",
+      "minecraft:liquid/splash"
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "block.dredging_apparatus.exit_water": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/exit_water1",
+      "fathoms:block/dredging_apparatus/exit_water2"
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "block.dredging_apparatus.embed_claw": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/embed_claw"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.embed_claw"
+  },
+  "block.dredging_apparatus.embed_claw_in_water": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/embed_claw_in_water"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.embed_claw"
+  },
+  "block.dredging_apparatus.hit_bottom": {
+    "sounds": [
+      "fathoms:block/dredging_apparatus/hit_bottom"
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.hit_bottom"
+  },
+  "block.dredging_apparatus.hook": {
+    "sounds": [
+      {
+        "name": "minecraft:liquid/swim1",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim2",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim3",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim4",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim5",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim6",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim7",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim8",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim9",
+        "volume": 0.1
+      },
+      {
+        "name": "minecraft:liquid/swim10",
+        "volume": 0.1
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.hook"
+  },
+  "block.dredging_apparatus.release": {
+    "sounds": [
+      {
+        "name": "fathoms:block/dredging_apparatus/release",
+        "pitch": 0.9
+      },
+      {
+        "name": "fathoms:block/dredging_apparatus/release",
+        "pitch": 0.95
+      },
+      {
+        "name": "fathoms:block/dredging_apparatus/release",
+        "pitch": 1
+      },
+      {
+        "name": "fathoms:block/dredging_apparatus/release",
+        "pitch": 1.05
+      },
+      {
+        "name": "fathoms:block/dredging_apparatus/release",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.dredging_apparatus.release"
+  },
+  "block.pylon.warn": {
+    "sounds": [
+      {
+        "name": "fathoms:block/pylon/warn1",
+        "volume": 0.3
+      },
+      {
+        "name": "fathoms:block/pylon/warn2",
+        "volume": 0.3
+      },
+      {
+        "name": "fathoms:block/pylon/warn3",
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.pylon.warn"
+  },
+  "block.pylon.discharge": {
+    "sounds": [
+      {
+        "name": "fathoms:block/pylon/discharge",
+        "pitch": 0.95
+      },
+      {
+        "name": "fathoms:block/pylon/discharge",
+        "pitch": 1
+      },
+      {
+        "name": "fathoms:block/pylon/discharge",
+        "pitch": 1.05
+      }
+    ],
+    "subtitle": "subtitles.fathoms.block.pylon.discharge"
+  },
+  "block.coffer.open": {
+    "subtitle": "subtitles.fathoms.block.coffer.open",
+    "sounds": [
+      "fathoms:block/coffer/open"
+    ]
+  },
+  "block.coffer.locked": {
+    "subtitle": "subtitles.fathoms.block.coffer.locked",
+    "sounds": [
+      "fathoms:block/coffer/locked"
+    ]
+  },
+  "block.coffer.eject": {
+    "subtitle": "subtitles.fathoms.block.coffer.eject",
+    "sounds": [
+      "fathoms:block/coffer/eject1",
+      "fathoms:block/coffer/eject2",
+      "fathoms:block/coffer/eject3"
+    ]
+  },
+  "block.coffer.crumble_wood": {
+    "subtitle": "subtitles.fathoms.block.coffer.crumble",
+    "sounds": [
+      "fathoms:block/coffer/crumble_wood"
+    ]
+  },
+  "block.coffer.crumble_stone": {
+    "subtitle": "subtitles.fathoms.block.coffer.crumble",
+    "sounds": [
+      "fathoms:block/coffer/crumble_stone"
+    ]
+  },
+  "block.calligraphy_table.flip_card": {
+    "subtitle": "subtitles.fathoms.block.calligraphy_table.flip_card",
+    "sounds": [
+      {
+        "name": "minecraft:item/book/close_put1",
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:item/book/close_put2",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "block.calligraphy_table.start": {
+    "subtitle": "subtitles.fathoms.block.calligraphy_table.start",
+    "sounds": [
+      {
+        "name": "fathoms:block/calligraphy_table/start",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "block.calligraphy_table.match": {
+    "subtitle": "subtitles.fathoms.block.calligraphy_table.match",
+    "sounds": [
+      "fathoms:block/calligraphy_table/match1",
+      "fathoms:block/calligraphy_table/match2"
+    ]
+  },
+  "block.calligraphy_table.decode": {
+    "subtitle": "subtitles.fathoms.block.calligraphy_table.decode",
+    "sounds": [
+      "fathoms:block/calligraphy_table/decode"
+    ]
+  },
+  "block.calligraphy_table.fail": {
+    "subtitle": "subtitles.fathoms.block.calligraphy_table.fail",
+    "sounds": [
+      "fathoms:block/calligraphy_table/fail"
+    ]
+  },
+  "entity.generic.eat.crunch": {
+    "sounds": [
+      "fathoms:item/eat/crunch1",
+      "fathoms:item/eat/crunch2",
+      "fathoms:item/eat/crunch3"
+    ],
+    "subtitle": "subtitles.entity.generic.eat"
+  },
+  "entity.generic.eat.crispy": {
+    "sounds": [
+      "fathoms:item/eat/crispy1",
+      "fathoms:item/eat/crispy2",
+      "fathoms:item/eat/crispy3"
+    ],
+    "subtitle": "subtitles.entity.generic.eat"
+  },
+  "entity.generic.eat.wet": {
+    "sounds": [
+      "fathoms:item/eat/wet1",
+      "fathoms:item/eat/wet2",
+      "fathoms:item/eat/wet3"
+    ],
+    "subtitle": "subtitles.entity.generic.eat"
+  },
+  "entity.player.retch": {
+    "sounds": [
+      "fathoms:block/aberration_idol/eject_heart"
+    ],
+    "subtitle": "subtitles.fathoms.entity.player.retch"
+  },
+  "entity.player.bad_decision": {
+    "sounds": [
+      "fathoms:block/aberration_idol/bad_decision"
+    ],
+    "subtitle": "subtitles.fathoms.entity.player.bad_decision"
+  },
+  "entity.augur.hurt": {
+    "sounds": [
+      "fathoms:entity/augur/hurt1",
+      "fathoms:entity/augur/hurt2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.augur.hurt"
+  },
+  "entity.augur.death": {
+    "sounds": [
+      "fathoms:entity/augur/death1",
+      "fathoms:entity/augur/death2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.augur.death"
+  },
+  "entity.augur.discharge": {
+    "sounds": [
+      "fathoms:entity/augur/discharge"
+    ],
+    "subtitle": "subtitles.fathoms.entity.augur.discharge"
+  },
+  "entity.augur.calcify": {
+    "sounds": [
+      "fathoms:entity/augur/calcify"
+    ],
+    "subtitle": "subtitles.fathoms.entity.augur.calcify"
+  },
+  "entity.horse.convert_to_kelpie": {
+    "sounds": [
+      "fathoms:entity/kelpie/transform"
+    ],
+    "subtitle": "subtitles.fathoms.entity.horse.convert_to_kelpie"
+  },
+  "entity.kelpie.ambient": {
+    "sounds": [
+      "fathoms:entity/kelpie/idle1",
+      "fathoms:entity/kelpie/idle2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.ambient"
+  },
+  "entity.kelpie.hurt": {
+    "sounds": [
+      "fathoms:entity/kelpie/hurt1",
+      "fathoms:entity/kelpie/hurt2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.hurt"
+  },
+  "entity.kelpie.death": {
+    "sounds": [
+      "fathoms:entity/kelpie/death"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.death"
+  },
+  "entity.kelpie.dry": {
+    "sounds": [
+      "fathoms:entity/kelpie/dried/convert"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.dry"
+  },
+  "entity.kelpie.dried.ambient": {
+    "sounds": [
+      "fathoms:entity/kelpie/dried/idle1",
+      "fathoms:entity/kelpie/dried/idle2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.ambient_dried"
+  },
+  "entity.kelpie.dried.hurt": {
+    "sounds": [
+      "fathoms:entity/kelpie/dried/hurt1",
+      "fathoms:entity/kelpie/dried/hurt2"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.hurt"
+  },
+  "entity.kelpie.dried.death": {
+    "sounds": [
+      "fathoms:entity/kelpie/dried/death"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.death"
+  },
+  "entity.kelpie.convert_to_horse": {
+    "sounds": [
+      "fathoms:entity/kelpie/revert"
+    ],
+    "subtitle": "subtitles.fathoms.entity.kelpie.convert_to_horse"
+  },
+  "entity.conjured_beast.death": {
+    "sounds": [
+      {
+        "name": "fathoms:entity/augur/hurt1",
+        "volume": 0.5,
+        "pitch": 0.5
+      },
+      {
+        "name": "fathoms:entity/augur/hurt2",
+        "volume": 0.5,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.fathoms.entity.conjured_beast.death"
+  },
+  "entity.villager.work_historian": {
+    "subtitle": "subtitles.fathoms.entity.villager.work_historian",
+    "sounds": [
+      "fathoms:block/calligraphy_table/decode"
+    ]
+  },
+  "entity.gilded_glimmer.ambient": {
+    "sounds": [
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 0.5
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 0.75
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 1.25
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 1.5
+      },
+      {
+        "name": "fathoms:item/fish/gilded",
+        "volume": 0.5,
+        "pitch": 1.75
+      }
+    ],
+    "subtitle": "subtitles.fathoms.entity.gilded_glimmer.ambient"
+  },
+  "ambient.rocky_waters.loop": {
+    "sounds": [
+      {
+        "name": "fathoms:ambient/biome/rocky_waters/loop",
+        "volume": 0.5,
+        "preload": true
+      }
+    ]
+  },
+  "ambient.oasis.quake": {
+    "sounds": [
+      {
+        "name": "fathoms:ambient/biome/oasis/quake",
+        "volume": 0.35
+      }
+    ],
+    "subtitle": "subtitles.fathoms.ambient.oasis.quake"
+  },
+  "title_card.generic": {
+    "sounds": [
+      "fathoms:title_card/generic"
+    ]
+  },
+  "title_card.foghorn": {
+    "sounds": [
+      "fathoms:title_card/foghorn"
+    ]
+  },
+  "record.encoded": {
+    "sounds": [
+      "fathoms:record/encoded"
+    ]
+  },
+  "record.enigma": {
+    "sounds": [
+      "fathoms:record/enigma"
+    ]
+  }
+}

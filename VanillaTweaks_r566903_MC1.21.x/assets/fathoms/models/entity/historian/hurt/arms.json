@@ -1,0 +1,6 @@
+{
+  "parent": "fathoms:entity/historian/default/arms",
+  "textures": {
+    "0": "fathoms:entity/historian/hurt"
+  }
+}
