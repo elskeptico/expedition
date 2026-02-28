@@ -1,0 +1,18 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	HungerBarsCarrot
+	VisualSaplingGrowth
+	RedIronGolemFlowers
+	CalciteBG
+	MoreCrosshairs-PlusDot
+	TransparentPumpkin
+	CircleLogTops
+	SmootherOakLog
+	AlternateBlockDestruction
+	StemToLog
+	HDShieldBanners
+	FencierFences
+	PolishedStonesToBricks
+	CopperToolOxidization
+	GoldenCrown
